@@ -2,7 +2,7 @@ from hashlib import sha256
 import time
 
 max_nonce = 100000000	#Setting range limit for guessing the hash
-genesis_hash = "00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048"
+genesis_hash = "00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048"  #First block satoshi - 5o btc award
 block_number = 1
 
 sample_transactions = """
